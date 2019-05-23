@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToggleRegister">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Type"
+        android:textSize="20sp"
+        android:id="@+id/service"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/serviceType"
+        android:layout_below="@id/service">
+    </Spinner>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="20sp"
+        android:id="@+id/subService"
+        android:layout_below="@id/serviceType"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/serviceCategory"
+        android:layout_below="@id/subService">
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20sp"
+        android:id="@+id/Address"
+        android:layout_below="@id/serviceCategory"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Address"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/editAddress"
+        android:layout_below="@id/Address"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pincode"
+        android:textSize="20sp"
+        android:id="@+id/TextViewpPincode"
+        android:layout_below="@id/editAddress"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Enter Pincode"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/pincode"
+        android:layout_below="@id/TextViewpPincode"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIND RETAILER"
+        android:id="@+id/findRetailer"
+        android:layout_below="@id/pincode"
+        android:background="@color/colorAccent"
+        />
+
+
+
+
+
+
+</RelativeLayout>

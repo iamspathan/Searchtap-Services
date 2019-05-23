@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SearchTap</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="ServiceType">
+        <item>Home Washing</item>
+        <item>Electronics &amp; Repairing</item>
+        <item>Salon and Spa</item>
+    </string-array>
+
+    <string-array name="HomeWashingCategory">
+        <item>Dry Clean</item>
+        <item>Pest Control</item>
+    </string-array>
+
+    <string-array name="ElectronicsRepairingCategory">
+        <item>Air Conditioner Maintainance</item>
+        <item>Cooler/Fan Repairing</item>
+    </string-array>
+
+    <string-array name="SalonAndSpaCategory">
+        <item>Facial</item>
+        <item>Massage</item>
+        <item>Hair Cut</item>
+    </string-array>
+
+    <string-array name="Pincode">
+        <item>144411</item>
+        <item>144412</item>
+        <item>144413</item>
+    </string-array>
+
+</resources>

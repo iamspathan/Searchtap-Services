@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619527571124",
+    "firebase_url": "https://searchntap.firebaseio.com",
+    "project_id": "searchntap",
+    "storage_bucket": "searchntap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619527571124:android:d47580cd147bf42f",
+        "android_client_info": {
+          "package_name": "me.sohailpathan.www.searchtap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619527571124-roh4v9h2h811p01kd5v3jc9c2kvd7kkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.sohailpathan.www.searchtap",
+            "certificate_hash": "bcd7888650a3df512b8789102f80a95e35f041c3"
+          }
+        },
+        {
+          "client_id": "619527571124-0bu7v3n6ureafjlpqso37p2i642b7rgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk6UmOiAcjBFRSWq7Y4yT5YiSUViBWC4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619527571124-0bu7v3n6ureafjlpqso37p2i642b7rgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

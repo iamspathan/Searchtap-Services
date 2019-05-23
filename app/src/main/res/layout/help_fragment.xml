@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HelpFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order NO."
+        android:textSize="20sp"
+        android:id="@+id/orderNo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Enter Order No."
+        android:textSize="20sp"
+        android:inputType="number"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/orderNoEdit"
+        android:layout_below="@id/orderNo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:id="@+id/TextViewEmail"
+        android:layout_below="@id/orderNoEdit"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Enter Email"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/EditTextEmail"
+        android:layout_below="@id/TextViewEmail"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No."
+        android:textSize="20sp"
+        android:id="@+id/textViewcomplaintMobileNo"
+        android:layout_below="@id/EditTextEmail"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Mobile No."
+        android:textSize="20sp"
+        android:inputType="number"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/EditTextComplaintMobileNo"
+        android:layout_below="@id/textViewcomplaintMobileNo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:textSize="20sp"
+        android:id="@+id/CommentTextView"
+        android:layout_below="@id/EditTextComplaintMobileNo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Comment"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/CommentEditText"
+        android:layout_below="@id/CommentTextView"
+        />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SUBMIT"
+    android:id="@+id/submitComplaint"
+    android:layout_below="@id/CommentEditText"
+    android:background="@color/colorAccent"
+    />
+
+</RelativeLayout>
